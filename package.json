@@ -1,0 +1,33 @@
+{
+  "name": "base-cli-sample",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mycli": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@xxxhand/app-common": "^0.0.31",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "dotenv-expand": "^12.0.1",
+    "figlet": "^1.8.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.4.3",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.13.10"
+  }
+}
