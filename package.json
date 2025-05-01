@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node ./bin/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"commands/**/*.js\""
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@types/figlet": "^1.7.0",
     "@types/inquirer": "^9.0.7",
-    "@types/node": "^22.13.10"
+    "@types/node": "^22.13.10",
+    "prettier": "^3.5.3"
   }
 }
